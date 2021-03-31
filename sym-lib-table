@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/library/pro-micro-kicad/promicro_library/promicro.lib)(options "")(descr ""))
+  (lib (name rpi-shell)(type Legacy)(uri ${KIPRJMOD}/library/rpi-shell.lib)(options "")(descr ""))
+)
