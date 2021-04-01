@@ -20,9 +20,13 @@ F0 "RPI Shell Controller Subsystem" 50
 F1 "controller.sch" 50
 $EndSheet
 $Sheet
-S 4350 1200 2350 1350
+S 5000 1200 2350 1350
 U 6068502A
 F0 "RPI Shell Audio Subsystem" 50
 F1 "audio.sch" 50
+F2 "audio-vcc" I L 5000 1400 50 
+F3 "audio-gnd" I L 5000 1550 50 
+F4 "audio-in-left" I L 5000 1900 50 
+F5 "audio-in-right" I L 5000 2050 50 
 $EndSheet
 $EndSCHEMATC

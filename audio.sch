@@ -13,4 +13,494 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Amplifier_Audio:LM386 U6
+U 1 1 60687AB3
+P 3900 2750
+F 0 "U6" H 4244 2796 50  0000 L CNN
+F 1 "LM386" H 4244 2705 50  0000 L CNN
+F 2 "" H 4000 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 4100 2950 50  0001 C CNN
+	1    3900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker LS?
+U 1 1 606892D7
+P 5750 2750
+F 0 "LS?" H 5920 2746 50  0000 L CNN
+F 1 "Speaker" H 5920 2655 50  0000 L CNN
+F 2 "" H 5750 2550 50  0001 C CNN
+F 3 "~" H 5740 2700 50  0001 C CNN
+	1    5750 2750
+	1    0    0    -1  
+$EndComp
+Text HLabel 1500 1100 0    50   Input ~ 0
+audio-vcc
+Text HLabel 1500 1300 0    50   Input ~ 0
+audio-gnd
+Wire Wire Line
+	1500 1300 1750 1300
+Wire Wire Line
+	1500 1100 1750 1100
+Text Label 1600 1100 0    50   ~ 0
+vcc
+Text Label 1600 1300 0    50   ~ 0
+gnd
+Text Label 3500 1050 0    50   ~ 0
+vcc
+Text Label 3300 2200 1    50   ~ 0
+gnd
+$Comp
+L Device:C C?
+U 1 1 6068C1D2
+P 3550 1950
+F 0 "C?" V 3298 1950 50  0000 C CNN
+F 1 "0.1 uF" V 3389 1950 50  0000 C CNN
+F 2 "" H 3588 1800 50  0001 C CNN
+F 3 "~" H 3550 1950 50  0001 C CNN
+	1    3550 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 6068BB5D
+P 3550 1450
+F 0 "C?" V 3298 1450 50  0000 C CNN
+F 1 "100 uF" V 3389 1450 50  0000 C CNN
+F 2 "" H 3550 1450 50  0001 C CNN
+F 3 "~" H 3550 1450 50  0001 C CNN
+	1    3550 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 1050 3800 1450
+Wire Wire Line
+	3700 1450 3800 1450
+Connection ~ 3800 1450
+Wire Wire Line
+	3800 1450 3800 1950
+Wire Wire Line
+	3700 1950 3800 1950
+Connection ~ 3800 1950
+Wire Wire Line
+	3300 1050 3300 1450
+Wire Wire Line
+	3300 1050 3800 1050
+Wire Wire Line
+	3400 1450 3300 1450
+Connection ~ 3300 1450
+Wire Wire Line
+	3300 1450 3300 1950
+Wire Wire Line
+	3400 1950 3300 1950
+Connection ~ 3300 1950
+Wire Wire Line
+	3300 1950 3300 2200
+NoConn ~ 3900 3050
+NoConn ~ 4000 3050
+$Comp
+L Device:C C?
+U 1 1 6069163A
+P 4650 2900
+F 0 "C?" H 4535 2854 50  0000 R CNN
+F 1 "0.1 uF" H 4535 2945 50  0000 R CNN
+F 2 "" H 4688 2750 50  0001 C CNN
+F 3 "~" H 4650 2900 50  0001 C CNN
+	1    4650 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60692BCE
+P 4650 3350
+F 0 "R?" H 4720 3396 50  0000 L CNN
+F 1 "10 ohm" H 4720 3305 50  0000 L CNN
+F 2 "" V 4580 3350 50  0001 C CNN
+F 3 "~" H 4650 3350 50  0001 C CNN
+	1    4650 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2750 4650 2750
+Wire Wire Line
+	4650 3050 4650 3200
+Wire Wire Line
+	4650 3500 4650 3650
+Text Label 4650 3650 1    50   ~ 0
+gnd
+$Comp
+L Device:CP1 C?
+U 1 1 6069368B
+P 5100 2750
+F 0 "C?" V 5352 2750 50  0000 C CNN
+F 1 "1000 uF" V 5261 2750 50  0000 C CNN
+F 2 "" H 5100 2750 50  0001 C CNN
+F 3 "~" H 5100 2750 50  0001 C CNN
+	1    5100 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 2750 4950 2750
+Connection ~ 4650 2750
+Wire Wire Line
+	5250 2750 5550 2750
+Wire Wire Line
+	5550 2850 5400 2850
+Wire Wire Line
+	5400 2850 5400 3650
+Text Label 5400 3650 1    50   ~ 0
+gnd
+$Comp
+L Device:R R?
+U 1 1 606956EF
+P 4200 1700
+F 0 "R?" H 4270 1746 50  0000 L CNN
+F 1 "10k ohm" H 4270 1655 50  0000 L CNN
+F 2 "" V 4130 1700 50  0001 C CNN
+F 3 "~" H 4200 1700 50  0001 C CNN
+	1    4200 1700
+	1    0    0    -1  
+$EndComp
+Text Label 4200 2450 1    50   ~ 0
+gnd
+$Comp
+L Device:CP1 C?
+U 1 1 606983F4
+P 4200 2100
+F 0 "C?" H 4315 2146 50  0000 L CNN
+F 1 "10 uF" H 4315 2055 50  0000 L CNN
+F 2 "" H 4200 2100 50  0001 C CNN
+F 3 "~" H 4200 2100 50  0001 C CNN
+	1    4200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1850 4200 1950
+Wire Wire Line
+	4200 2250 4200 2450
+Wire Wire Line
+	3900 2450 3900 1450
+Wire Wire Line
+	3900 1450 4200 1450
+Wire Wire Line
+	4200 1450 4200 1550
+Wire Wire Line
+	3600 2850 3400 2850
+Wire Wire Line
+	3400 2850 3400 3400
+Text Label 3400 3650 1    50   ~ 0
+gnd
+Wire Wire Line
+	3800 3050 3800 3400
+Text Label 3800 3650 1    50   ~ 0
+gnd
+$Comp
+L Device:C C?
+U 1 1 606BC090
+P 3600 3400
+F 0 "C?" V 3852 3400 50  0000 C CNN
+F 1 "470 pF" V 3761 3400 50  0000 C CNN
+F 2 "" H 3638 3250 50  0001 C CNN
+F 3 "~" H 3600 3400 50  0001 C CNN
+	1    3600 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 3400 3400 3400
+Connection ~ 3400 3400
+Wire Wire Line
+	3400 3400 3400 3650
+Wire Wire Line
+	3750 3400 3800 3400
+Connection ~ 3800 3400
+Wire Wire Line
+	3800 3400 3800 3650
+$Comp
+L Device:C C?
+U 1 1 606BD618
+P 2950 2850
+F 0 "C?" H 3065 2896 50  0000 L CNN
+F 1 "0.1 uF" H 3065 2805 50  0000 L CNN
+F 2 "" H 2988 2700 50  0001 C CNN
+F 3 "~" H 2950 2850 50  0001 C CNN
+	1    2950 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1950 3800 2350
+Wire Wire Line
+	3800 2350 2950 2350
+Wire Wire Line
+	2950 2350 2950 2700
+Connection ~ 3800 2350
+Wire Wire Line
+	3800 2350 3800 2450
+Wire Wire Line
+	2950 3000 2950 3050
+Wire Wire Line
+	2950 3050 3800 3050
+Connection ~ 3800 3050
+Text HLabel 1550 2300 0    50   Input ~ 0
+audio-in-left
+Text HLabel 1550 5450 0    50   Input ~ 0
+audio-in-right
+$Comp
+L Device:R_POT_TRIM_US RV?
+U 1 1 606CBBC0
+P 1950 2650
+F 0 "RV?" H 1882 2696 50  0000 R CNN
+F 1 "10k" H 1882 2605 50  0000 R CNN
+F 2 "" H 1950 2650 50  0001 C CNN
+F 3 "~" H 1950 2650 50  0001 C CNN
+	1    1950 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2300 1950 2300
+Wire Wire Line
+	1950 2300 1950 2500
+Wire Wire Line
+	1950 2800 1950 3650
+Text Label 1950 3650 1    50   ~ 0
+gnd
+Wire Wire Line
+	2100 2650 3600 2650
+$Comp
+L Amplifier_Audio:LM386 U?
+U 1 1 606DD65F
+P 3900 5900
+F 0 "U?" H 4244 5946 50  0000 L CNN
+F 1 "LM386" H 4244 5855 50  0000 L CNN
+F 2 "" H 4000 6000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 4100 6100 50  0001 C CNN
+	1    3900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker LS?
+U 1 1 606DD665
+P 5750 5900
+F 0 "LS?" H 5920 5896 50  0000 L CNN
+F 1 "Speaker" H 5920 5805 50  0000 L CNN
+F 2 "" H 5750 5700 50  0001 C CNN
+F 3 "~" H 5740 5850 50  0001 C CNN
+	1    5750 5900
+	1    0    0    -1  
+$EndComp
+Text Label 3500 4200 0    50   ~ 0
+vcc
+Text Label 3300 5350 1    50   ~ 0
+gnd
+$Comp
+L Device:C C?
+U 1 1 606DD66D
+P 3550 5100
+F 0 "C?" V 3298 5100 50  0000 C CNN
+F 1 "0.1 uF" V 3389 5100 50  0000 C CNN
+F 2 "" H 3588 4950 50  0001 C CNN
+F 3 "~" H 3550 5100 50  0001 C CNN
+	1    3550 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 606DD673
+P 3550 4600
+F 0 "C?" V 3298 4600 50  0000 C CNN
+F 1 "100 uF" V 3389 4600 50  0000 C CNN
+F 2 "" H 3550 4600 50  0001 C CNN
+F 3 "~" H 3550 4600 50  0001 C CNN
+	1    3550 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 4200 3800 4600
+Wire Wire Line
+	3700 4600 3800 4600
+Connection ~ 3800 4600
+Wire Wire Line
+	3800 4600 3800 5100
+Wire Wire Line
+	3700 5100 3800 5100
+Connection ~ 3800 5100
+Wire Wire Line
+	3300 4200 3300 4600
+Wire Wire Line
+	3300 4200 3800 4200
+Wire Wire Line
+	3400 4600 3300 4600
+Connection ~ 3300 4600
+Wire Wire Line
+	3300 4600 3300 5100
+Wire Wire Line
+	3400 5100 3300 5100
+Connection ~ 3300 5100
+Wire Wire Line
+	3300 5100 3300 5350
+NoConn ~ 3900 6200
+NoConn ~ 4000 6200
+$Comp
+L Device:C C?
+U 1 1 606DD689
+P 4650 6050
+F 0 "C?" H 4535 6004 50  0000 R CNN
+F 1 "0.1 uF" H 4535 6095 50  0000 R CNN
+F 2 "" H 4688 5900 50  0001 C CNN
+F 3 "~" H 4650 6050 50  0001 C CNN
+	1    4650 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 606DD68F
+P 4650 6500
+F 0 "R?" H 4720 6546 50  0000 L CNN
+F 1 "10 ohm" H 4720 6455 50  0000 L CNN
+F 2 "" V 4580 6500 50  0001 C CNN
+F 3 "~" H 4650 6500 50  0001 C CNN
+	1    4650 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5900 4650 5900
+Wire Wire Line
+	4650 6200 4650 6350
+Wire Wire Line
+	4650 6650 4650 6800
+Text Label 4650 6800 1    50   ~ 0
+gnd
+$Comp
+L Device:CP1 C?
+U 1 1 606DD699
+P 5100 5900
+F 0 "C?" V 5352 5900 50  0000 C CNN
+F 1 "1000 uF" V 5261 5900 50  0000 C CNN
+F 2 "" H 5100 5900 50  0001 C CNN
+F 3 "~" H 5100 5900 50  0001 C CNN
+	1    5100 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 5900 4950 5900
+Connection ~ 4650 5900
+Wire Wire Line
+	5250 5900 5550 5900
+Wire Wire Line
+	5550 6000 5400 6000
+Wire Wire Line
+	5400 6000 5400 6800
+Text Label 5400 6800 1    50   ~ 0
+gnd
+$Comp
+L Device:R R?
+U 1 1 606DD6A5
+P 4200 4850
+F 0 "R?" H 4270 4896 50  0000 L CNN
+F 1 "10k ohm" H 4270 4805 50  0000 L CNN
+F 2 "" V 4130 4850 50  0001 C CNN
+F 3 "~" H 4200 4850 50  0001 C CNN
+	1    4200 4850
+	1    0    0    -1  
+$EndComp
+Text Label 4200 5600 1    50   ~ 0
+gnd
+$Comp
+L Device:CP1 C?
+U 1 1 606DD6AC
+P 4200 5250
+F 0 "C?" H 4315 5296 50  0000 L CNN
+F 1 "10 uF" H 4315 5205 50  0000 L CNN
+F 2 "" H 4200 5250 50  0001 C CNN
+F 3 "~" H 4200 5250 50  0001 C CNN
+	1    4200 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5000 4200 5100
+Wire Wire Line
+	4200 5400 4200 5600
+Wire Wire Line
+	3900 5600 3900 4600
+Wire Wire Line
+	3900 4600 4200 4600
+Wire Wire Line
+	4200 4600 4200 4700
+Wire Wire Line
+	3600 6000 3400 6000
+Wire Wire Line
+	3400 6000 3400 6550
+Text Label 3400 6800 1    50   ~ 0
+gnd
+Wire Wire Line
+	3800 6200 3800 6550
+Text Label 3800 6800 1    50   ~ 0
+gnd
+$Comp
+L Device:C C?
+U 1 1 606DD6BC
+P 3600 6550
+F 0 "C?" V 3852 6550 50  0000 C CNN
+F 1 "470 pF" V 3761 6550 50  0000 C CNN
+F 2 "" H 3638 6400 50  0001 C CNN
+F 3 "~" H 3600 6550 50  0001 C CNN
+	1    3600 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 6550 3400 6550
+Connection ~ 3400 6550
+Wire Wire Line
+	3400 6550 3400 6800
+Wire Wire Line
+	3750 6550 3800 6550
+Connection ~ 3800 6550
+Wire Wire Line
+	3800 6550 3800 6800
+$Comp
+L Device:C C?
+U 1 1 606DD6C8
+P 2950 6000
+F 0 "C?" H 3065 6046 50  0000 L CNN
+F 1 "0.1 uF" H 3065 5955 50  0000 L CNN
+F 2 "" H 2988 5850 50  0001 C CNN
+F 3 "~" H 2950 6000 50  0001 C CNN
+	1    2950 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5100 3800 5500
+Wire Wire Line
+	3800 5500 2950 5500
+Wire Wire Line
+	2950 5500 2950 5850
+Connection ~ 3800 5500
+Wire Wire Line
+	3800 5500 3800 5600
+Wire Wire Line
+	2950 6150 2950 6200
+Wire Wire Line
+	2950 6200 3800 6200
+Connection ~ 3800 6200
+$Comp
+L Device:R_POT_TRIM_US RV?
+U 1 1 606DD6D6
+P 1950 5800
+F 0 "RV?" H 1882 5846 50  0000 R CNN
+F 1 "10k" H 1882 5755 50  0000 R CNN
+F 2 "" H 1950 5800 50  0001 C CNN
+F 3 "~" H 1950 5800 50  0001 C CNN
+	1    1950 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5450 1950 5450
+Wire Wire Line
+	1950 5450 1950 5650
+Wire Wire Line
+	1950 5950 1950 6800
+Text Label 1950 6800 1    50   ~ 0
+gnd
+Wire Wire Line
+	2100 5800 3600 5800
 $EndSCHEMATC

@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D1
 U 1 1 60680B1A
 P 2050 1650
-F 0 "D?" V 2004 1730 50  0000 L CNN
+F 0 "D1" V 2004 1730 50  0000 L CNN
 F 1 "D_Schottky" V 2095 1730 50  0000 L CNN
 F 2 "" H 2050 1650 50  0001 C CNN
 F 3 "~" H 2050 1650 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 2050 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_MEC_5E SW?
+L Switch:SW_MEC_5E SW1
 U 1 1 60680B20
 P 1850 1200
-F 0 "SW?" H 1850 1585 50  0000 C CNN
+F 0 "SW1" H 1850 1585 50  0000 C CNN
 F 1 "L1" H 1850 1494 50  0000 C CNN
 F 2 "" H 1850 1500 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 1850 1500 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5E SW?
+L Switch:SW_MEC_5E SW3
 U 1 1 60680B26
 P 3500 1200
-F 0 "SW?" H 3500 1585 50  0000 C CNN
+F 0 "SW3" H 3500 1585 50  0000 C CNN
 F 1 "Select" H 3500 1494 50  0000 C CNN
 F 2 "" H 3500 1500 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 3500 1500 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5E SW?
+L Switch:SW_MEC_5E SW2
 U 1 1 60680B2C
 P 2700 1200
-F 0 "SW?" H 2700 1585 50  0000 C CNN
+F 0 "SW2" H 2700 1585 50  0000 C CNN
 F 1 "L2" H 2700 1494 50  0000 C CNN
 F 2 "" H 2700 1500 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 2700 1500 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5E SW?
+L Switch:SW_MEC_5E SW5
 U 1 1 60680B32
 P 8900 1300
-F 0 "SW?" H 8900 1685 50  0000 C CNN
+F 0 "SW5" H 8900 1685 50  0000 C CNN
 F 1 "R2" H 8900 1594 50  0000 C CNN
 F 2 "" H 8900 1600 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 8900 1600 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5E SW?
+L Switch:SW_MEC_5E SW4
 U 1 1 60680B38
 P 8150 1300
-F 0 "SW?" H 8150 1685 50  0000 C CNN
+F 0 "SW4" H 8150 1685 50  0000 C CNN
 F 1 "Start" H 8150 1594 50  0000 C CNN
 F 2 "" H 8150 1600 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 8150 1600 50  0001 C CNN
@@ -80,10 +80,10 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PMOS_SGD Q?
+L Device:Q_PMOS_SGD Q1
 U 1 1 60680B3E
 P 3900 2750
-F 0 "Q?" H 4105 2796 50  0000 L CNN
+F 0 "Q1" H 4105 2796 50  0000 L CNN
 F 1 "Q_PMOS_SGD" H 4105 2705 50  0000 L CNN
 F 2 "" H 4100 2850 50  0001 C CNN
 F 3 "~" H 3900 2750 50  0001 C CNN
@@ -91,10 +91,10 @@ F 3 "~" H 3900 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PMOS_SGD Q?
+L Device:Q_PMOS_SGD Q2
 U 1 1 60680B44
 P 7850 3050
-F 0 "Q?" H 8055 3004 50  0000 L CNN
+F 0 "Q2" H 8055 3004 50  0000 L CNN
 F 1 "Q_PMOS_SGD" H 8055 3095 50  0000 L CNN
 F 2 "" H 8050 3150 50  0001 C CNN
 F 3 "~" H 7850 3050 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "~" H 7850 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rpi-shell:Thumbstick U?
+L rpi-shell:Thumbstick U1
 U 1 1 60680B4A
 P 2650 3000
-F 0 "U?" H 2708 3425 50  0000 C CNN
+F 0 "U1" H 2708 3425 50  0000 C CNN
 F 1 "Thumbstick" H 2708 3334 50  0000 C CNN
 F 2 "" H 2650 3150 50  0001 C CNN
 F 3 "" H 2650 3150 50  0001 C CNN
@@ -113,10 +113,10 @@ F 3 "" H 2650 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rpi-shell:Thumbstick U?
+L rpi-shell:Thumbstick U5
 U 1 1 60680B50
 P 9150 3050
-F 0 "U?" H 9200 2600 50  0000 R CNN
+F 0 "U5" H 9200 2600 50  0000 R CNN
 F 1 "Thumbstick" H 9362 2711 50  0000 R CNN
 F 2 "" H 9150 3200 50  0001 C CNN
 F 3 "" H 9150 3200 50  0001 C CNN
@@ -128,10 +128,10 @@ Wire Wire Line
 Wire Wire Line
 	4000 4000 5150 4000
 $Comp
-L promicro:ProMicro U?
+L promicro:ProMicro U3
 U 1 1 60680B58
 P 5850 3850
-F 0 "U?" H 5850 4887 60  0000 C CNN
+F 0 "U3" H 5850 4887 60  0000 C CNN
 F 1 "ProMicro" H 5850 4781 60  0000 C CNN
 F 2 "" H 5950 2800 60  0000 C CNN
 F 3 "" H 5950 2800 60  0000 C CNN
@@ -167,10 +167,10 @@ Wire Wire Line
 Wire Wire Line
 	2050 1100 2050 1200
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D2
 U 1 1 60680B6E
 P 2900 1650
-F 0 "D?" V 2854 1730 50  0000 L CNN
+F 0 "D2" V 2854 1730 50  0000 L CNN
 F 1 "D_Schottky" V 2945 1730 50  0000 L CNN
 F 2 "" H 2900 1650 50  0001 C CNN
 F 3 "~" H 2900 1650 50  0001 C CNN
@@ -178,10 +178,10 @@ F 3 "~" H 2900 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D3
 U 1 1 60680B74
 P 3700 1650
-F 0 "D?" V 3654 1730 50  0000 L CNN
+F 0 "D3" V 3654 1730 50  0000 L CNN
 F 1 "D_Schottky" V 3745 1730 50  0000 L CNN
 F 2 "" H 3700 1650 50  0001 C CNN
 F 3 "~" H 3700 1650 50  0001 C CNN
@@ -203,10 +203,10 @@ Connection ~ 3300 1350
 Wire Wire Line
 	4000 3600 4000 4000
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D14
 U 1 1 60680B83
 P 7950 1650
-F 0 "D?" V 7904 1730 50  0000 L CNN
+F 0 "D14" V 7904 1730 50  0000 L CNN
 F 1 "D_Schottky" V 7995 1730 50  0000 L CNN
 F 2 "" H 7950 1650 50  0001 C CNN
 F 3 "~" H 7950 1650 50  0001 C CNN
@@ -214,10 +214,10 @@ F 3 "~" H 7950 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D15
 U 1 1 60680B89
 P 8700 1650
-F 0 "D?" V 8654 1730 50  0000 L CNN
+F 0 "D15" V 8654 1730 50  0000 L CNN
 F 1 "D_Schottky" V 8745 1730 50  0000 L CNN
 F 2 "" H 8700 1650 50  0001 C CNN
 F 3 "~" H 8700 1650 50  0001 C CNN
@@ -225,10 +225,10 @@ F 3 "~" H 8700 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D16
 U 1 1 60680B8F
 P 9450 1650
-F 0 "D?" V 9404 1730 50  0000 L CNN
+F 0 "D16" V 9404 1730 50  0000 L CNN
 F 1 "D_Schottky" V 9495 1730 50  0000 L CNN
 F 2 "" H 9450 1650 50  0001 C CNN
 F 3 "~" H 9450 1650 50  0001 C CNN
@@ -294,10 +294,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 3600 4000 3600
 $Comp
-L Switch:SW_MEC_5E SW?
+L Switch:SW_MEC_5E SW6
 U 1 1 60680BB6
 P 9650 1300
-F 0 "SW?" H 9650 1685 50  0000 C CNN
+F 0 "SW6" H 9650 1685 50  0000 C CNN
 F 1 "R1" H 9650 1594 50  0000 C CNN
 F 2 "" H 9650 1600 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 9650 1600 50  0001 C CNN
@@ -442,10 +442,10 @@ Wire Wire Line
 Wire Wire Line
 	3550 3000 3000 3000
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D4
 U 1 1 60680C01
 P 4000 3250
-F 0 "D?" V 4046 3170 50  0000 R CNN
+F 0 "D4" V 4046 3170 50  0000 R CNN
 F 1 "D_Schottky" V 3955 3170 50  0000 R CNN
 F 2 "" H 4000 3250 50  0001 C CNN
 F 3 "~" H 4000 3250 50  0001 C CNN
@@ -460,10 +460,10 @@ Connection ~ 4000 3600
 Text Notes 4100 4000 0    50   ~ 0
 This diode is\noptional.\nSchottky\nrecovers from\nreverse drive\nfaster than \nPMOS body \ndiode.\n
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D13
 U 1 1 60680C0B
 P 7750 3500
-F 0 "D?" V 7796 3420 50  0000 R CNN
+F 0 "D13" V 7796 3420 50  0000 R CNN
 F 1 "D_Schottky" V 7705 3420 50  0000 R CNN
 F 2 "" H 7750 3500 50  0001 C CNN
 F 3 "~" H 7750 3500 50  0001 C CNN
@@ -500,10 +500,10 @@ Wire Wire Line
 Text Notes 8300 4050 0    50   ~ 0
 This diode is\noptional.\nSchottky\nrecovers from\nreverse drive\nfaster than \nPMOS body \ndiode.\n
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D10
 U 1 1 60680C20
 P 6750 5150
-F 0 "D?" H 6750 4933 50  0000 C CNN
+F 0 "D10" H 6750 4933 50  0000 C CNN
 F 1 "D_Schottky" H 6750 5024 50  0000 C CNN
 F 2 "" H 6750 5150 50  0001 C CNN
 F 3 "~" H 6750 5150 50  0001 C CNN
@@ -511,10 +511,10 @@ F 3 "~" H 6750 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D11
 U 1 1 60680C26
 P 6750 5850
-F 0 "D?" H 6750 5633 50  0000 C CNN
+F 0 "D11" H 6750 5633 50  0000 C CNN
 F 1 "D_Schottky" H 6750 5724 50  0000 C CNN
 F 2 "" H 6750 5850 50  0001 C CNN
 F 3 "~" H 6750 5850 50  0001 C CNN
@@ -522,10 +522,10 @@ F 3 "~" H 6750 5850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D12
 U 1 1 60680C2C
 P 6750 6150
-F 0 "D?" H 6750 5933 50  0000 C CNN
+F 0 "D12" H 6750 5933 50  0000 C CNN
 F 1 "D_Schottky" H 6750 6024 50  0000 C CNN
 F 2 "" H 6750 6150 50  0001 C CNN
 F 3 "~" H 6750 6150 50  0001 C CNN
@@ -541,10 +541,10 @@ Wire Wire Line
 Wire Wire Line
 	5950 6150 6600 6150
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D5
 U 1 1 60680C36
 P 4650 5000
-F 0 "D?" H 4650 5217 50  0000 C CNN
+F 0 "D5" H 4650 5217 50  0000 C CNN
 F 1 "D_Schottky" H 4650 5126 50  0000 C CNN
 F 2 "" H 4650 5000 50  0001 C CNN
 F 3 "~" H 4650 5000 50  0001 C CNN
@@ -552,10 +552,10 @@ F 3 "~" H 4650 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D6
 U 1 1 60680C3C
 P 4650 5250
-F 0 "D?" H 4650 5467 50  0000 C CNN
+F 0 "D6" H 4650 5467 50  0000 C CNN
 F 1 "D_Schottky" H 4650 5376 50  0000 C CNN
 F 2 "" H 4650 5250 50  0001 C CNN
 F 3 "~" H 4650 5250 50  0001 C CNN
@@ -563,10 +563,10 @@ F 3 "~" H 4650 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D7
 U 1 1 60680C42
 P 4650 5650
-F 0 "D?" H 4650 5867 50  0000 C CNN
+F 0 "D7" H 4650 5867 50  0000 C CNN
 F 1 "D_Schottky" H 4650 5776 50  0000 C CNN
 F 2 "" H 4650 5650 50  0001 C CNN
 F 3 "~" H 4650 5650 50  0001 C CNN
@@ -574,10 +574,10 @@ F 3 "~" H 4650 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D8
 U 1 1 60680C48
 P 4650 5850
-F 0 "D?" H 4650 6067 50  0000 C CNN
+F 0 "D8" H 4650 6067 50  0000 C CNN
 F 1 "D_Schottky" H 4650 5976 50  0000 C CNN
 F 2 "" H 4650 5850 50  0001 C CNN
 F 3 "~" H 4650 5850 50  0001 C CNN
@@ -597,10 +597,10 @@ Col3
 Text Label 7050 4200 0    50   ~ 0
 Col4
 $Comp
-L rpi-shell:dpad-cross-trace U?
+L rpi-shell:dpad-cross-trace U2
 U 1 1 60680C54
 P 2800 5450
-F 0 "U?" H 2750 6215 50  0000 C CNN
+F 0 "U2" H 2750 6215 50  0000 C CNN
 F 1 "dpad-cross-trace" H 2750 6124 50  0000 C CNN
 F 2 "" H 2800 4400 50  0001 C CNN
 F 3 "" H 2800 4400 50  0001 C CNN
@@ -628,10 +628,10 @@ Wire Wire Line
 Wire Wire Line
 	2100 4100 5150 4100
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D9
 U 1 1 60680C64
 P 6750 4850
-F 0 "D?" H 6750 4633 50  0000 C CNN
+F 0 "D9" H 6750 4633 50  0000 C CNN
 F 1 "D_Schottky" H 6750 4724 50  0000 C CNN
 F 2 "" H 6750 4850 50  0001 C CNN
 F 3 "~" H 6750 4850 50  0001 C CNN
@@ -639,10 +639,10 @@ F 3 "~" H 6750 4850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rpi-shell:abxy-cross-trace U?
+L rpi-shell:abxy-cross-trace U4
 U 1 1 60680C6A
 P 8600 5500
-F 0 "U?" H 8648 6585 50  0000 C CNN
+F 0 "U4" H 8648 6585 50  0000 C CNN
 F 1 "abxy-cross-trace" H 8648 6494 50  0000 C CNN
 F 2 "" H 8600 5500 50  0001 C CNN
 F 3 "" H 8600 5500 50  0001 C CNN
