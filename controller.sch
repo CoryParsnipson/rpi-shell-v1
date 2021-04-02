@@ -315,7 +315,7 @@ Wire Wire Line
 Text Label 3000 2800 0    50   ~ 0
 VCC
 Wire Wire Line
-	6550 3400 6750 3400
+	6550 3400 6800 3400
 Wire Wire Line
 	8800 3250 8550 3250
 Text Label 8600 3250 0    50   ~ 0
@@ -327,7 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 2950 8550 2950
 Wire Wire Line
-	6550 3200 6750 3200
+	6550 3200 6800 3200
 Text Label 6550 3200 0    50   ~ 0
 GND
 Text Label 8600 2950 0    50   ~ 0
@@ -673,6 +673,27 @@ Text Label 6600 3600 0    50   ~ 0
 A2
 Text Label 6600 3500 0    50   ~ 0
 A3
+NoConn ~ 5150 3100
+NoConn ~ 5150 3200
+NoConn ~ 5150 3300
+NoConn ~ 5150 3400
+NoConn ~ 5150 3600
+NoConn ~ 5150 3800
+NoConn ~ 5150 3900
+NoConn ~ 5150 4200
+NoConn ~ 6550 3300
+NoConn ~ 6550 3100
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 606B0D7F
+P 6800 3400
+F 0 "#FLG0104" H 6800 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 6800 3573 50  0000 C CNN
+F 2 "" H 6800 3400 50  0001 C CNN
+F 3 "~" H 6800 3400 50  0001 C CNN
+	1    6800 3400
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	5850 2100 9900 2100
 Wire Bus Line
