@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title "RPI Shell Controller Subsystem"
 Date "2021-03-31"
 Rev "1"
@@ -101,30 +101,6 @@ F 3 "~" H 7850 3050 50  0001 C CNN
 	1    7850 3050
 	-1   0    0    1   
 $EndComp
-$Comp
-L rpi-shell:Thumbstick U1
-U 1 1 60680B4A
-P 2650 3000
-F 0 "U1" H 2708 3425 50  0000 C CNN
-F 1 "Thumbstick" H 2708 3334 50  0000 C CNN
-F 2 "" H 2650 3150 50  0001 C CNN
-F 3 "" H 2650 3150 50  0001 C CNN
-	1    2650 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L rpi-shell:Thumbstick U5
-U 1 1 60680B50
-P 9150 3050
-F 0 "U5" H 9200 2600 50  0000 R CNN
-F 1 "Thumbstick" H 9362 2711 50  0000 R CNN
-F 2 "" H 9150 3200 50  0001 C CNN
-F 3 "" H 9150 3200 50  0001 C CNN
-	1    9150 3050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8800 3050 8050 3050
 Wire Wire Line
 	4000 4000 5150 4000
 $Comp
@@ -253,7 +229,7 @@ Connection ~ 9450 1300
 Wire Wire Line
 	7750 4100 6550 4100
 Wire Wire Line
-	3000 3200 3550 3200
+	2450 3200 3550 3200
 Wire Wire Line
 	3550 3200 3550 4500
 Wire Wire Line
@@ -307,33 +283,33 @@ $EndComp
 Wire Wire Line
 	3650 4400 6800 4400
 Wire Wire Line
-	3000 2900 3650 2900
+	2450 2900 3650 2900
 Wire Wire Line
 	3650 2900 3650 4400
 Wire Wire Line
-	3000 2800 3200 2800
-Text Label 3000 2800 0    50   ~ 0
-VCC
+	2450 2800 3200 2800
+Text Label 2700 2800 0    50   ~ 0
+vcc
 Wire Wire Line
-	6550 3400 6800 3400
+	6550 3400 6750 3400
 Wire Wire Line
-	8800 3250 8550 3250
-Text Label 8600 3250 0    50   ~ 0
-VCC
+	9100 3100 8700 3100
+Text Label 8750 3100 0    50   ~ 0
+vcc
 Text Label 6550 3400 0    50   ~ 0
-VCC
+vcc
 Wire Wire Line
-	3000 3100 3200 3100
+	2450 3100 3200 3100
 Wire Wire Line
-	8800 2950 8550 2950
+	9100 2800 8700 2800
 Wire Wire Line
-	6550 3200 6800 3200
+	6550 3200 6750 3200
 Text Label 6550 3200 0    50   ~ 0
-GND
-Text Label 8600 2950 0    50   ~ 0
-GND
-Text Label 3000 3100 0    50   ~ 0
-GND
+gnd
+Text Label 8750 2800 0    50   ~ 0
+gnd
+Text Label 2700 3100 0    50   ~ 0
+gnd
 Connection ~ 5850 2100
 Entry Wire Line
 	5850 3900 5950 4000
@@ -440,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2750 3550 3000
 Wire Wire Line
-	3550 3000 3000 3000
+	3550 3000 2450 3000
 $Comp
 L Device:D_Schottky D4
 U 1 1 60680C01
@@ -478,25 +454,25 @@ Connection ~ 7750 3750
 Wire Wire Line
 	7750 3750 7750 4100
 Wire Wire Line
-	8400 2850 8400 2600
+	8700 2700 8700 2600
 Wire Wire Line
-	8400 2600 7000 2600
+	8700 2600 7050 2600
 Wire Wire Line
-	7000 2600 7000 3500
+	7050 2600 7050 3500
 Wire Wire Line
-	7000 3500 6550 3500
+	7050 3500 6550 3500
 Wire Wire Line
-	8400 2850 8800 2850
+	8700 2700 9100 2700
 Wire Wire Line
-	8300 3150 8300 2700
+	8550 3000 8550 2700
 Wire Wire Line
-	8300 2700 7100 2700
+	8550 2700 7150 2700
 Wire Wire Line
-	7100 2700 7100 3600
+	7150 2700 7150 3600
 Wire Wire Line
-	7100 3600 6550 3600
+	7150 3600 6550 3600
 Wire Wire Line
-	8300 3150 8800 3150
+	8550 3000 9100 3000
 Text Notes 8300 4050 0    50   ~ 0
 This diode is\noptional.\nSchottky\nrecovers from\nreverse drive\nfaster than \nPMOS body \ndiode.\n
 $Comp
@@ -683,17 +659,64 @@ NoConn ~ 5150 3900
 NoConn ~ 5150 4200
 NoConn ~ 6550 3300
 NoConn ~ 6550 3100
+Text Notes 5150 2000 0    50   ~ 0
+TODO: add shmidt trigger for debounce
 $Comp
-L power:PWR_FLAG #FLG0104
-U 1 1 606B0D7F
-P 6800 3400
-F 0 "#FLG0104" H 6800 3475 50  0001 C CNN
-F 1 "PWR_FLAG" H 6800 3573 50  0000 C CNN
-F 2 "" H 6800 3400 50  0001 C CNN
-F 3 "~" H 6800 3400 50  0001 C CNN
-	1    6800 3400
+L power:PWR_FLAG #FLG0103
+U 1 1 6070BFBD
+P 6750 3200
+F 0 "#FLG0103" H 6750 3275 50  0001 C CNN
+F 1 "PWR_FLAG" H 6750 3373 50  0000 C CNN
+F 2 "" H 6750 3200 50  0001 C CNN
+F 3 "~" H 6750 3200 50  0001 C CNN
+	1    6750 3200
 	1    0    0    -1  
 $EndComp
+Connection ~ 6750 3200
+Wire Wire Line
+	6750 3200 6800 3200
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 6070C5D5
+P 6750 3400
+F 0 "#FLG0104" H 6750 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 6750 3573 50  0000 C CNN
+F 2 "" H 6750 3400 50  0001 C CNN
+F 3 "~" H 6750 3400 50  0001 C CNN
+	1    6750 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 3400
+Wire Wire Line
+	6750 3400 6800 3400
+$Comp
+L rpi-shell:046809605110846+ F?
+U 1 1 6079299E
+P 2100 2850
+F 0 "F?" H 2100 2350 50  0000 C CNN
+F 1 "046809605110846+" H 2133 3174 50  0000 C CNN
+F 2 "" H 2100 3000 50  0001 C CNN
+F 3 "" H 2100 3000 50  0001 C CNN
+	1    2100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L rpi-shell:046809605110846+ F?
+U 1 1 607935EE
+P 9450 3050
+F 0 "F?" H 9500 3400 50  0000 R CNN
+F 1 "046809605110846+" H 9840 2532 50  0000 R CNN
+F 2 "" H 9450 3200 50  0001 C CNN
+F 3 "" H 9450 3200 50  0001 C CNN
+	1    9450 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 2900 8400 2900
+Wire Wire Line
+	8400 2900 8400 3050
+Wire Wire Line
+	8400 3050 8050 3050
 Wire Bus Line
 	5850 2100 9900 2100
 Wire Bus Line
