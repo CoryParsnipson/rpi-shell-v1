@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name rpi-shell-v1)(type KiCad)(uri ${KIPRJMOD}/footprint/rpi-shell-v1.pretty)(options "")(descr ""))
+  (lib (name rpi-shell-v1-switches)(type KiCad)(uri ${KIPRJMOD}/footprint/rpi-shell-v1.pretty/switches.pretty)(options "")(descr ""))
+  (lib (name kicad-pro-micro)(type KiCad)(uri C:/Users/Cory/Documents/pcb/rpi-shell-v1/vendor/pro-micro-kicad/promicro.pretty)(options "")(descr ""))
+)

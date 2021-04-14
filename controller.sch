@@ -19,7 +19,7 @@ U 1 1 60680B1A
 P 2050 1650
 F 0 "D1" V 2004 1730 50  0000 L CNN
 F 1 "D_Schottky" V 2095 1730 50  0000 L CNN
-F 2 "" H 2050 1650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2050 1650 50  0001 C CNN
 F 3 "~" H 2050 1650 50  0001 C CNN
 	1    2050 1650
 	0    1    1    0   
@@ -41,7 +41,7 @@ U 1 1 60680B26
 P 3500 1200
 F 0 "SW3" H 3500 1585 50  0000 C CNN
 F 1 "Select" H 3500 1494 50  0000 C CNN
-F 2 "" H 3500 1500 50  0001 C CNN
+F 2 "rpi-shell-v1-switches:SW_SMD_Dome_TL3312NF-160Q" H 3500 1500 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 3500 1500 50  0001 C CNN
 	1    3500 1200
 	1    0    0    -1  
@@ -74,7 +74,7 @@ U 1 1 60680B38
 P 8150 1300
 F 0 "SW4" H 8150 1685 50  0000 C CNN
 F 1 "Start" H 8150 1594 50  0000 C CNN
-F 2 "" H 8150 1600 50  0001 C CNN
+F 2 "rpi-shell-v1-switches:SW_SMD_Dome_TL3312NF-160Q" H 8150 1600 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 8150 1600 50  0001 C CNN
 	1    8150 1300
 	1    0    0    -1  
@@ -109,7 +109,7 @@ U 1 1 60680B58
 P 5850 3850
 F 0 "U5" H 5850 4887 60  0000 C CNN
 F 1 "ProMicro" H 5850 4781 60  0000 C CNN
-F 2 "" H 5950 2800 60  0000 C CNN
+F 2 "kicad-pro-micro:ProMicro" H 5950 2800 60  0001 C CNN
 F 3 "" H 5950 2800 60  0000 C CNN
 	1    5850 3850
 	1    0    0    -1  
@@ -119,36 +119,21 @@ Wire Wire Line
 Wire Wire Line
 	1500 1200 1500 1350
 Wire Wire Line
-	1650 1100 1650 1200
-Connection ~ 1650 1200
-Wire Wire Line
-	2500 1100 2500 1200
-Wire Wire Line
 	2500 1200 2500 1350
 Wire Wire Line
 	2500 1350 1500 1350
-Connection ~ 2500 1200
-Wire Wire Line
-	3300 1100 3300 1200
 Wire Wire Line
 	3300 1200 3300 1350
 Wire Wire Line
 	3300 1350 2500 1350
-Connection ~ 3300 1200
 Connection ~ 2500 1350
-Wire Wire Line
-	3700 1100 3700 1200
-Wire Wire Line
-	2900 1100 2900 1200
-Wire Wire Line
-	2050 1100 2050 1200
 $Comp
 L Device:D_Schottky D2
 U 1 1 60680B6E
 P 2900 1650
 F 0 "D2" V 2854 1730 50  0000 L CNN
 F 1 "D_Schottky" V 2945 1730 50  0000 L CNN
-F 2 "" H 2900 1650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2900 1650 50  0001 C CNN
 F 3 "~" H 2900 1650 50  0001 C CNN
 	1    2900 1650
 	0    1    1    0   
@@ -159,20 +144,17 @@ U 1 1 60680B74
 P 3700 1650
 F 0 "D3" V 3654 1730 50  0000 L CNN
 F 1 "D_Schottky" V 3745 1730 50  0000 L CNN
-F 2 "" H 3700 1650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3700 1650 50  0001 C CNN
 F 3 "~" H 3700 1650 50  0001 C CNN
 	1    3700 1650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3700 1200 3700 1500
-Connection ~ 3700 1200
 Wire Wire Line
 	2900 1200 2900 1500
-Connection ~ 2900 1200
 Wire Wire Line
 	2050 1200 2050 1500
-Connection ~ 2050 1200
 Wire Wire Line
 	3300 1350 4300 1350
 Connection ~ 3300 1350
@@ -184,7 +166,7 @@ U 1 1 60680B83
 P 7950 1650
 F 0 "D14" V 7904 1730 50  0000 L CNN
 F 1 "D_Schottky" V 7995 1730 50  0000 L CNN
-F 2 "" H 7950 1650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7950 1650 50  0001 C CNN
 F 3 "~" H 7950 1650 50  0001 C CNN
 	1    7950 1650
 	0    1    1    0   
@@ -195,7 +177,7 @@ U 1 1 60680B89
 P 8700 1650
 F 0 "D15" V 8654 1730 50  0000 L CNN
 F 1 "D_Schottky" V 8745 1730 50  0000 L CNN
-F 2 "" H 8700 1650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8700 1650 50  0001 C CNN
 F 3 "~" H 8700 1650 50  0001 C CNN
 	1    8700 1650
 	0    1    1    0   
@@ -206,26 +188,15 @@ U 1 1 60680B8F
 P 9450 1650
 F 0 "D16" V 9404 1730 50  0000 L CNN
 F 1 "D_Schottky" V 9495 1730 50  0000 L CNN
-F 2 "" H 9450 1650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9450 1650 50  0001 C CNN
 F 3 "~" H 9450 1650 50  0001 C CNN
 	1    9450 1650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7950 1200 7950 1300
-Wire Wire Line
 	7950 1300 7950 1500
-Connection ~ 7950 1300
 Wire Wire Line
 	8700 1300 8700 1500
-Wire Wire Line
-	8700 1200 8700 1300
-Connection ~ 8700 1300
-Wire Wire Line
-	9450 1200 9450 1300
-Wire Wire Line
-	9450 1300 9450 1500
-Connection ~ 9450 1300
 Wire Wire Line
 	7750 4100 6550 4100
 Wire Wire Line
@@ -245,23 +216,12 @@ Wire Wire Line
 Wire Wire Line
 	7750 3750 7450 3750
 Wire Wire Line
-	9850 1400 9850 1300
-Wire Wire Line
-	9850 1200 9850 1300
-Connection ~ 9850 1300
-Wire Wire Line
-	9100 1200 9100 1300
-Wire Wire Line
 	9100 1300 9100 1400
-Connection ~ 9100 1300
 Connection ~ 9100 1400
 Wire Wire Line
 	9100 1400 9850 1400
 Wire Wire Line
-	8350 1200 8350 1300
-Wire Wire Line
 	8350 1300 8350 1400
-Connection ~ 8350 1300
 Connection ~ 8350 1400
 Wire Wire Line
 	8350 1400 9100 1400
@@ -269,17 +229,6 @@ Wire Wire Line
 	7450 1400 8350 1400
 Wire Wire Line
 	4300 3600 4000 3600
-$Comp
-L Switch:SW_MEC_5E SW6
-U 1 1 60680BB6
-P 9650 1300
-F 0 "SW6" H 9650 1685 50  0000 C CNN
-F 1 "R1" H 9650 1594 50  0000 C CNN
-F 2 "" H 9650 1600 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 9650 1600 50  0001 C CNN
-	1    9650 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3650 4400 6800 4400
 Wire Wire Line
@@ -423,7 +372,7 @@ U 1 1 60680C01
 P 4000 3250
 F 0 "D4" V 4046 3170 50  0000 R CNN
 F 1 "D_Schottky" V 3955 3170 50  0000 R CNN
-F 2 "" H 4000 3250 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 3250 50  0001 C CNN
 F 3 "~" H 4000 3250 50  0001 C CNN
 	1    4000 3250
 	0    -1   -1   0   
@@ -441,7 +390,7 @@ U 1 1 60680C0B
 P 7750 3500
 F 0 "D13" V 7796 3420 50  0000 R CNN
 F 1 "D_Schottky" V 7705 3420 50  0000 R CNN
-F 2 "" H 7750 3500 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7750 3500 50  0001 C CNN
 F 3 "~" H 7750 3500 50  0001 C CNN
 	1    7750 3500
 	0    -1   -1   0   
@@ -481,7 +430,7 @@ U 1 1 60680C20
 P 6750 5150
 F 0 "D10" H 6750 4933 50  0000 C CNN
 F 1 "D_Schottky" H 6750 5024 50  0000 C CNN
-F 2 "" H 6750 5150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6750 5150 50  0001 C CNN
 F 3 "~" H 6750 5150 50  0001 C CNN
 	1    6750 5150
 	-1   0    0    1   
@@ -492,7 +441,7 @@ U 1 1 60680C26
 P 6750 5850
 F 0 "D11" H 6750 5633 50  0000 C CNN
 F 1 "D_Schottky" H 6750 5724 50  0000 C CNN
-F 2 "" H 6750 5850 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6750 5850 50  0001 C CNN
 F 3 "~" H 6750 5850 50  0001 C CNN
 	1    6750 5850
 	-1   0    0    1   
@@ -503,7 +452,7 @@ U 1 1 60680C2C
 P 6750 6150
 F 0 "D12" H 6750 5933 50  0000 C CNN
 F 1 "D_Schottky" H 6750 6024 50  0000 C CNN
-F 2 "" H 6750 6150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6750 6150 50  0001 C CNN
 F 3 "~" H 6750 6150 50  0001 C CNN
 	1    6750 6150
 	-1   0    0    1   
@@ -522,7 +471,7 @@ U 1 1 60680C36
 P 4650 5000
 F 0 "D5" H 4650 5217 50  0000 C CNN
 F 1 "D_Schottky" H 4650 5126 50  0000 C CNN
-F 2 "" H 4650 5000 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4650 5000 50  0001 C CNN
 F 3 "~" H 4650 5000 50  0001 C CNN
 	1    4650 5000
 	1    0    0    -1  
@@ -533,7 +482,7 @@ U 1 1 60680C3C
 P 4650 5250
 F 0 "D6" H 4650 5467 50  0000 C CNN
 F 1 "D_Schottky" H 4650 5376 50  0000 C CNN
-F 2 "" H 4650 5250 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4650 5250 50  0001 C CNN
 F 3 "~" H 4650 5250 50  0001 C CNN
 	1    4650 5250
 	1    0    0    -1  
@@ -544,7 +493,7 @@ U 1 1 60680C42
 P 4650 5650
 F 0 "D7" H 4650 5867 50  0000 C CNN
 F 1 "D_Schottky" H 4650 5776 50  0000 C CNN
-F 2 "" H 4650 5650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4650 5650 50  0001 C CNN
 F 3 "~" H 4650 5650 50  0001 C CNN
 	1    4650 5650
 	1    0    0    -1  
@@ -555,7 +504,7 @@ U 1 1 60680C48
 P 4650 5850
 F 0 "D8" H 4650 6067 50  0000 C CNN
 F 1 "D_Schottky" H 4650 5976 50  0000 C CNN
-F 2 "" H 4650 5850 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4650 5850 50  0001 C CNN
 F 3 "~" H 4650 5850 50  0001 C CNN
 	1    4650 5850
 	1    0    0    -1  
@@ -609,7 +558,7 @@ U 1 1 60680C64
 P 6750 4850
 F 0 "D9" H 6750 4633 50  0000 C CNN
 F 1 "D_Schottky" H 6750 4724 50  0000 C CNN
-F 2 "" H 6750 4850 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6750 4850 50  0001 C CNN
 F 3 "~" H 6750 4850 50  0001 C CNN
 	1    6750 4850
 	-1   0    0    1   
@@ -717,6 +666,33 @@ Wire Wire Line
 	8400 2900 8400 3050
 Wire Wire Line
 	8400 3050 8050 3050
+NoConn ~ 1650 1100
+NoConn ~ 2050 1100
+NoConn ~ 2500 1100
+NoConn ~ 2900 1100
+NoConn ~ 3300 1100
+NoConn ~ 3700 1100
+Wire Wire Line
+	9850 1400 9850 1300
+Wire Wire Line
+	9450 1300 9450 1500
+$Comp
+L Switch:SW_MEC_5E SW6
+U 1 1 60680BB6
+P 9650 1300
+F 0 "SW6" H 9650 1685 50  0000 C CNN
+F 1 "R1" H 9650 1594 50  0000 C CNN
+F 2 "" H 9650 1600 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 9650 1600 50  0001 C CNN
+	1    9650 1300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9850 1200
+NoConn ~ 9450 1200
+NoConn ~ 9100 1200
+NoConn ~ 8700 1200
+NoConn ~ 8350 1200
+NoConn ~ 7950 1200
 Wire Bus Line
 	5850 2100 9900 2100
 Wire Bus Line
