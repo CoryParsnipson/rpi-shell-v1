@@ -3,4 +3,6 @@
   (lib (name rpi-shell-v1)(type KiCad)(uri ${KIPRJMOD}/footprint/rpi-shell-v1.pretty)(options "")(descr ""))
   (lib (name rpi-shell-v1-switches)(type KiCad)(uri ${KIPRJMOD}/footprint/rpi-shell-v1.pretty/switches.pretty)(options "")(descr ""))
   (lib (name rpi-shell-v1-mosfets)(type KiCad)(uri ${KIPRJMOD}/footprint/rpi-shell-v1.pretty/mosfets.pretty)(options "")(descr ""))
+  (lib (name rpi-shell-v1-sockets)(type KiCad)(uri ${KIPRJMOD}/footprint/rpi-shell-v1.pretty/sockets.pretty)(options "")(descr ""))
+  (lib (name 3362P-1-103)(type KiCad)(uri ${KIPRJMOD}/vendor/3362P-1-103)(options "")(descr ""))
 )

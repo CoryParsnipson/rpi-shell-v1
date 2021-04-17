@@ -109,7 +109,7 @@ U 1 1 60680B58
 P 5850 3850
 F 0 "U5" H 5850 4887 60  0000 C CNN
 F 1 "ProMicro" H 5850 4781 60  0000 C CNN
-F 2 "kicad-pro-micro:ProMicro" H 5950 2800 60  0001 C CNN
+F 2 "rpi-shell-v1-sockets:pro-micro-pin-header-socket" H 5950 2800 60  0001 C CNN
 F 3 "" H 5950 2800 60  0000 C CNN
 	1    5850 3850
 	1    0    0    -1  
