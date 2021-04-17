@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Amplifier_Audio:LM386 U2
+L Amplifier_Audio:LM386 A1
 U 1 1 60687AB3
 P 6600 2350
-F 0 "U2" H 6944 2396 50  0000 L CNN
+F 0 "A1" H 6944 2396 50  0000 L CNN
 F 1 "LM386" H 6944 2305 50  0000 L CNN
-F 2 "" H 6700 2450 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6700 2450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 6800 2550 50  0001 C CNN
 	1    6600 2350
 	1    0    0    -1  
@@ -245,12 +245,12 @@ Wire Wire Line
 Wire Wire Line
 	4800 2250 6300 2250
 $Comp
-L Amplifier_Audio:LM386 U3
+L Amplifier_Audio:LM386 A2
 U 1 1 606DD65F
 P 6600 5500
-F 0 "U3" H 6944 5546 50  0000 L CNN
+F 0 "A2" H 6944 5546 50  0000 L CNN
 F 1 "LM386" H 6944 5455 50  0000 L CNN
-F 2 "" H 6700 5600 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6700 5600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 6800 5700 50  0001 C CNN
 	1    6600 5500
 	1    0    0    -1  

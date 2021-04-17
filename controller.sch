@@ -30,7 +30,7 @@ U 1 1 60680B20
 P 1850 1200
 F 0 "SW1" H 1850 1585 50  0000 C CNN
 F 1 "L1" H 1850 1494 50  0000 C CNN
-F 2 "" H 1850 1500 50  0001 C CNN
+F 2 "rpi-shell-v1-switches:MJTP1236" H 1850 1500 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 1850 1500 50  0001 C CNN
 	1    1850 1200
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 60680B2C
 P 2700 1200
 F 0 "SW2" H 2700 1585 50  0000 C CNN
 F 1 "L2" H 2700 1494 50  0000 C CNN
-F 2 "" H 2700 1500 50  0001 C CNN
+F 2 "rpi-shell-v1-switches:MJTP1236" H 2700 1500 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 2700 1500 50  0001 C CNN
 	1    2700 1200
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 60680B32
 P 8900 1300
 F 0 "SW5" H 8900 1685 50  0000 C CNN
 F 1 "R2" H 8900 1594 50  0000 C CNN
-F 2 "" H 8900 1600 50  0001 C CNN
+F 2 "rpi-shell-v1-switches:MJTP1236" H 8900 1600 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 8900 1600 50  0001 C CNN
 	1    8900 1300
 	1    0    0    -1  
@@ -522,10 +522,10 @@ Col3
 Text Label 7050 4200 0    50   ~ 0
 Col4
 $Comp
-L rpi-shell:dpad-cross-trace U4
+L rpi-shell:dpad-cross-trace CT1
 U 1 1 60680C54
 P 2800 5450
-F 0 "U4" H 2750 6215 50  0000 C CNN
+F 0 "CT1" H 2750 6215 50  0000 C CNN
 F 1 "dpad-cross-trace" H 2750 6124 50  0000 C CNN
 F 2 "" H 2800 4400 50  0001 C CNN
 F 3 "" H 2800 4400 50  0001 C CNN
@@ -564,10 +564,10 @@ F 3 "~" H 6750 4850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rpi-shell:abxy-cross-trace U6
+L rpi-shell:abxy-cross-trace CT2
 U 1 1 60680C6A
 P 8600 5500
-F 0 "U6" H 8648 6585 50  0000 C CNN
+F 0 "CT2" H 8648 6585 50  0000 C CNN
 F 1 "abxy-cross-trace" H 8648 6494 50  0000 C CNN
 F 2 "" H 8600 5500 50  0001 C CNN
 F 3 "" H 8600 5500 50  0001 C CNN
@@ -682,7 +682,7 @@ U 1 1 60680BB6
 P 9650 1300
 F 0 "SW6" H 9650 1685 50  0000 C CNN
 F 1 "R1" H 9650 1594 50  0000 C CNN
-F 2 "" H 9650 1600 50  0001 C CNN
+F 2 "rpi-shell-v1-switches:MJTP1236" H 9650 1600 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 9650 1600 50  0001 C CNN
 	1    9650 1300
 	1    0    0    -1  
