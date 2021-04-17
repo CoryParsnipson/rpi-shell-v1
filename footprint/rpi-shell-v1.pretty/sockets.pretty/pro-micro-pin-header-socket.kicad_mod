@@ -1,5 +1,5 @@
-(module pro-micro-pin-header-socket (layer F.Cu) (tedit 60790AA0)
-  (fp_text reference %R (at 0 -10.5918) (layer F.SilkS)
+(module pro-micro-pin-header-socket (layer F.Cu) (tedit 607B3CD5)
+  (fp_text reference %R (at -0.0254 -10.3886) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value pro-micro-pin-header-socket (at 0 10.5918) (layer F.Fab)
