@@ -25,44 +25,22 @@ F 3 "~" H 2050 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_MEC_5E SW1
-U 1 1 60680B20
-P 1850 1200
-F 0 "SW1" H 1850 1585 50  0000 C CNN
-F 1 "L1" H 1850 1494 50  0000 C CNN
-F 2 "rpi-shell-v1-switches:MJTP1236" H 1850 1500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 1850 1500 50  0001 C CNN
-	1    1850 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5E SW3
-U 1 1 60680B26
-P 3500 1200
-F 0 "SW3" H 3500 1585 50  0000 C CNN
-F 1 "Select" H 3500 1494 50  0000 C CNN
-F 2 "rpi-shell-v1-switches:SW_SMD_Dome_TL3312NF-160Q" H 3500 1500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 3500 1500 50  0001 C CNN
-	1    3500 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5E SW2
+L Switch:SW_SPST SW2
 U 1 1 60680B2C
-P 2700 1200
-F 0 "SW2" H 2700 1585 50  0000 C CNN
-F 1 "L2" H 2700 1494 50  0000 C CNN
-F 2 "rpi-shell-v1-switches:MJTP1236" H 2700 1500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 2700 1500 50  0001 C CNN
-	1    2700 1200
+P 2700 1250
+F 0 "SW2" H 2700 1500 50  0000 C CNN
+F 1 "L2" H 2700 1400 50  0000 C CNN
+F 2 "rpi-shell-v1-switches:MJTP1236" H 2700 1550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 2700 1550 50  0001 C CNN
+	1    2700 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5E SW5
+L Switch:SW_SPST SW5
 U 1 1 60680B32
 P 8900 1300
-F 0 "SW5" H 8900 1685 50  0000 C CNN
-F 1 "R2" H 8900 1594 50  0000 C CNN
+F 0 "SW5" H 8900 1550 50  0000 C CNN
+F 1 "R2" H 8900 1450 50  0000 C CNN
 F 2 "rpi-shell-v1-switches:MJTP1236" H 8900 1600 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 8900 1600 50  0001 C CNN
 	1    8900 1300
@@ -115,15 +93,15 @@ F 3 "" H 5950 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 1200 1500 1200
+	1650 1250 1600 1250
 Wire Wire Line
-	1500 1200 1500 1350
+	1600 1250 1600 1350
 Wire Wire Line
-	2500 1200 2500 1350
+	2500 1250 2500 1350
 Wire Wire Line
-	2500 1350 1500 1350
+	2500 1350 1600 1350
 Wire Wire Line
-	3300 1200 3300 1350
+	3300 1250 3300 1350
 Wire Wire Line
 	3300 1350 2500 1350
 Connection ~ 2500 1350
@@ -150,11 +128,11 @@ F 3 "~" H 3700 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3700 1200 3700 1500
+	3700 1250 3700 1500
 Wire Wire Line
-	2900 1200 2900 1500
+	2900 1250 2900 1500
 Wire Wire Line
-	2050 1200 2050 1500
+	2050 1250 2050 1500
 Wire Wire Line
 	3300 1350 4300 1350
 Connection ~ 3300 1350
@@ -219,7 +197,7 @@ Wire Wire Line
 	9100 1300 9100 1400
 Connection ~ 9100 1400
 Wire Wire Line
-	9100 1400 9850 1400
+	9100 1400 9900 1400
 Wire Wire Line
 	8350 1300 8350 1400
 Connection ~ 8350 1400
@@ -666,33 +644,49 @@ Wire Wire Line
 	8400 2900 8400 3050
 Wire Wire Line
 	8400 3050 8050 3050
-NoConn ~ 1650 1100
-NoConn ~ 2050 1100
-NoConn ~ 2500 1100
-NoConn ~ 2900 1100
-NoConn ~ 3300 1100
-NoConn ~ 3700 1100
 Wire Wire Line
-	9850 1400 9850 1300
+	9900 1400 9900 1300
 Wire Wire Line
 	9450 1300 9450 1500
 $Comp
-L Switch:SW_MEC_5E SW6
+L Switch:SW_SPST SW6
 U 1 1 60680BB6
 P 9650 1300
-F 0 "SW6" H 9650 1685 50  0000 C CNN
-F 1 "R1" H 9650 1594 50  0000 C CNN
+F 0 "SW6" H 9650 1550 50  0000 C CNN
+F 1 "R1" H 9650 1450 50  0000 C CNN
 F 2 "rpi-shell-v1-switches:MJTP1236" H 9650 1600 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 9650 1600 50  0001 C CNN
 	1    9650 1300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9850 1200
-NoConn ~ 9450 1200
-NoConn ~ 9100 1200
-NoConn ~ 8700 1200
 NoConn ~ 8350 1200
 NoConn ~ 7950 1200
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 60680B20
+P 1850 1250
+F 0 "SW1" H 1850 1500 50  0000 C CNN
+F 1 "L1" H 1850 1400 50  0000 C CNN
+F 2 "rpi-shell-v1-switches:MJTP1236" H 1850 1550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 1850 1550 50  0001 C CNN
+	1    1850 1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3700 1150
+NoConn ~ 3300 1150
+$Comp
+L Switch:SW_MEC_5E SW3
+U 1 1 60680B26
+P 3500 1250
+F 0 "SW3" H 3500 1635 50  0000 C CNN
+F 1 "Select" H 3500 1544 50  0000 C CNN
+F 2 "rpi-shell-v1-switches:SW_SMD_Dome_TL3312NF-160Q" H 3500 1550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 3500 1550 50  0001 C CNN
+	1    3500 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 1300 9850 1300
 Wire Bus Line
 	5850 2100 9900 2100
 Wire Bus Line

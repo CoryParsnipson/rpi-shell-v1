@@ -25,14 +25,14 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 6800 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Speaker LS1
+L rpi-shell:speaker LS1
 U 1 1 606892D7
-P 8450 2350
-F 0 "LS1" H 8620 2346 50  0000 L CNN
-F 1 "Speaker" H 8620 2255 50  0000 L CNN
-F 2 "SMS-1308MS-2-R:SMS-1308MS-2-R" H 8450 2150 50  0001 C CNN
-F 3 "~" H 8440 2300 50  0001 C CNN
-	1    8450 2350
+P 8450 2400
+F 0 "LS1" H 8620 2396 50  0000 L CNN
+F 1 "Speaker" H 8620 2305 50  0000 L CNN
+F 2 "SMS-1308MS-2-R:SMS-1308MS-2-R" H 8450 2200 50  0001 C CNN
+F 3 "~" H 8440 2350 50  0001 C CNN
+	1    8450 2400
 	1    0    0    -1  
 $EndComp
 Text HLabel 1700 900  0    50   Input ~ 0
@@ -256,14 +256,14 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 6800 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Speaker LS2
+L rpi-shell:speaker LS2
 U 1 1 606DD665
-P 8450 5500
-F 0 "LS2" H 8620 5496 50  0000 L CNN
-F 1 "Speaker" H 8620 5405 50  0000 L CNN
-F 2 "SMS-1308MS-2-R:SMS-1308MS-2-R" H 8450 5300 50  0001 C CNN
-F 3 "~" H 8440 5450 50  0001 C CNN
-	1    8450 5500
+P 8450 5550
+F 0 "LS2" H 8620 5546 50  0000 L CNN
+F 1 "Speaker" H 8620 5455 50  0000 L CNN
+F 2 "SMS-1308MS-2-R:SMS-1308MS-2-R" H 8450 5350 50  0001 C CNN
+F 3 "~" H 8440 5500 50  0001 C CNN
+	1    8450 5550
 	1    0    0    -1  
 $EndComp
 Text Label 6200 3800 0    50   ~ 0

@@ -94,4 +94,19 @@ X Out 5 -700 0 118 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# speaker
+#
+DEF speaker LS 0 40 Y N 1 F N
+F0 "LS" 0 225 50 H V C CNN
+F1 "speaker" -100 150 50 H V C CNN
+F2 "" -50 -50 50 H I C CNN
+F3 "" -50 -50 50 H I C CNN
+DRAW
+S -100 50 40 -150 1 1 10 N
+P 4 1 1 10 40 50 140 150 140 -250 40 -150 N
+X + + -200 0 100 R 50 50 1 1 I
+X - - -200 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 #End Library
