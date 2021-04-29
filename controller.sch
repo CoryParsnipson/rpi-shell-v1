@@ -505,7 +505,7 @@ U 1 1 60680C54
 P 2800 5450
 F 0 "CT1" H 2750 6215 50  0000 C CNN
 F 1 "dpad-cross-trace" H 2750 6124 50  0000 C CNN
-F 2 "" H 2800 4400 50  0001 C CNN
+F 2 "rpi-shell-v1-switches:3ds_dpad_cross" H 2800 4400 50  0001 C CNN
 F 3 "" H 2800 4400 50  0001 C CNN
 	1    2800 5450
 	1    0    0    -1  

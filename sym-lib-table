@@ -2,4 +2,5 @@
   (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/vendor/pro-micro-kicad/promicro_library/promicro.lib)(options "")(descr ""))
   (lib (name rpi-shell)(type Legacy)(uri ${KIPRJMOD}/symbol/rpi-shell.lib)(options "")(descr ""))
   (lib (name adafruit)(type Legacy)(uri ${KIPRJMOD}/symbol/adafruit/adafruit.lib)(options "")(descr ""))
+  (lib (name rpi-shell-v1-rescue)(type Legacy)(uri ${KIPRJMOD}/rpi-shell-v1-rescue.lib)(options "")(descr ""))
 )

@@ -464,9 +464,11 @@ Wire Wire Line
 Wire Wire Line
 	4800 5400 6300 5400
 $Comp
-L adafruit:UDA1334A U1
+L rpi-shell-v1-rescue:UDA1334A-adafruit U1
 U 1 1 6067F8B5
 P 2350 3850
+AR Path="/6067F8B5" Ref="U1"  Part="1" 
+AR Path="/6068502A/6067F8B5" Ref="U1"  Part="1" 
 F 0 "U1" H 2350 4665 50  0000 C CNN
 F 1 "UDA1334A" H 2350 4574 50  0000 C CNN
 F 2 "rpi-shell-v1-sockets:UDA1334A" H 2150 4550 50  0001 C CNN
